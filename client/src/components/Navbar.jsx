@@ -6,7 +6,7 @@ const Navbar = () => {
     <header>
       <div className="nav-grid">
         <div className="logo">
-          <h1>Move Mf</h1>
+          <h1>Hamro Project</h1>
         </div>
         <div className="search-bar">
           <input type="text" placeholder="Search..." />
