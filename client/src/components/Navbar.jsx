@@ -1,6 +1,7 @@
 import { CiSearch } from "react-icons/ci";
 import "../styles/Navbar.css";
-
+import {Link} from "react-router-dom";
+import Login from "./Login";
 const Navbar = () => {
   return (
     <header>
@@ -21,7 +22,8 @@ const Navbar = () => {
             <li className="dropdown-container">
               <a href="#">Pages</a>
               <div className="nav-dropdown">
-                <a href="#">Login</a>
+              <Link to="/login">Login</Link>
+
                 <a href="#">Cart</a>
                 <a href="#">Product Details</a>
               </div>
